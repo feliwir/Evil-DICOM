@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>8.0</LangVersion>
+    <AssemblyName>EvilDICOM.CodeGenerator</AssemblyName>
+    <RootNamespace>EvilDICOM.CodeGenerator</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CodeAnalysis.CSharp.Workspaces" Version="2.11.0-beta1-final" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EvilDICOM\EvilDICOM.csproj" />
+  </ItemGroup>
+
+</Project>
